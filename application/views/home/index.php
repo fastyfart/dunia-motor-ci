@@ -5,12 +5,12 @@
                     <div class="row" id="row-nopad">
                             <div id="row-stp">
                                 <div id="col-stp1">
-                                 	<img src="<?php echo base_url("public/img/we%20offer.png") ?>">
+                                 	<img src="<?php echo base_url("assets/img/we%20offer.png") ?>">
                                 </div>
                                 <div id="col-stp">
-                                    <img src="<?php echo base_url("public/img/originality.png") ?>">
-                                    <img src="<?php echo base_url("public/img/prestigious.png") ?>">
-                                    <img src="<?php echo base_url("public/img/satisfaction.png") ?>">
+                                    <img src="<?php echo base_url("assets/img/originality.png") ?>">
+                                    <img src="<?php echo base_url("assets/img/prestigious.png") ?>">
+                                    <img src="<?php echo base_url("assets/img/satisfaction.png") ?>">
                                     <div class="clearfix" ></div>
                                 </div>
                             </div>
@@ -103,13 +103,13 @@
                                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" role="listbox">
                                             <div class="item active">
-                                                <img src="<?php echo base_url("public/img/banner_front_page/frontpage1.png") ?>" alt="First slide" style="width:100%">
+                                                <img src="<?php echo base_url("assets/img/banner_front_page/frontpage1.png") ?>" alt="First slide" style="width:100%">
                                             </div>
                                             <div class="item">
-                                                <img src="<?php echo base_url("public/img/banner_front_page/frontpage2.png") ?>" alt="Second slide" style="width:100%">
+                                                <img src="<?php echo base_url("assets/img/banner_front_page/frontpage2.png") ?>" alt="Second slide" style="width:100%">
                                             </div>
                                             <div class="item">
-                                                <img src="<?php echo base_url("public/img/banner_front_page/frontpage3.png") ?>" alt="Third slide" style="width:100%">
+                                                <img src="<?php echo base_url("assets/img/banner_front_page/frontpage3.png") ?>" alt="Third slide" style="width:100%">
                                             </div>
                                         </div>
                                         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -133,22 +133,22 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#x" >
-                                                            <img src="<?php echo base_url("public/img/brands/112902alpinestars.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/112902alpinestars.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#x" >
-                                                            <img src="<?php echo base_url("public/img/brands/151780cnc.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/151780cnc.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#x">
-                                                            <img src="<?php echo base_url("public/img/brands/162118akrapovic-1211x454.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/162118akrapovic-1211x454.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#x" >
-                                                            <img src="<?php echo base_url("public/img/brands/248594ducabike.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/248594ducabike.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -158,46 +158,22 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/258872R&G.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/258872R&G.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/377799termignoni.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/377799termignoni.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/456733BMC.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/456733BMC.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/459245m4.png") ?>" alt="Image" class="img-responsive">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="row">
-                                                    <div class="col-sm-3 carouselFix">
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/487128ohlins.png") ?>" alt="Image" class="img-responsive">
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-3 carouselFix">
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/507112evotech.png") ?>" alt="Image" class="img-responsive">
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-3 carouselFix">
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/544456SENA.png") ?>" alt="Image" class="img-responsive">
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-sm-3 carouselFix">
-                                                        <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/592360rizoma.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/459245m4.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -206,22 +182,22 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/616085werkes.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/487128ohlins.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/71105sector.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/507112evotech.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/756710sato_racing.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/544456SENA.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/760229ducati_performance.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/592360rizoma.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -230,22 +206,46 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/888401LV8.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/616085werkes.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                     <div class="col-sm-3 carouselFix">
                                                         <a href="#">
-                                                            <img src="<?php echo base_url("public/img/brands/ducati_OEM_logo.png") ?>" alt="Image" class="img-responsive">
+                                                            <img src="<?php echo base_url("assets/img/brands/71105sector.png") ?>" alt="Image" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-3 carouselFix">
+                                                        <a href="#">
+                                                            <img src="<?php echo base_url("assets/img/brands/756710sato_racing.png") ?>" alt="Image" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-3 carouselFix">
+                                                        <a href="#">
+                                                            <img src="<?php echo base_url("assets/img/brands/760229ducati_performance.png") ?>" alt="Image" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="row">
+                                                    <div class="col-sm-3 carouselFix">
+                                                        <a href="#">
+                                                            <img src="<?php echo base_url("assets/img/brands/888401LV8.png") ?>" alt="Image" class="img-responsive">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-3 carouselFix">
+                                                        <a href="#">
+                                                            <img src="<?php echo base_url("assets/img/brands/ducati_OEM_logo.png") ?>" alt="Image" class="img-responsive">
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                           <a class="left carousel-control" href="#carousel-brand" data-slide="prev">
-                                            <img class="chevron chevron-left" src="<?php echo base_url("public/img/kiri.png") ?>" />
+                                            <img class="chevron chevron-left" src="<?php echo base_url("assets/img/kiri.png") ?>" />
                                           </a>
                                           <a class="right carousel-control" href="#carousel-brand" data-slide="next">
-                                            <img class="chevron chevron-right" src="<?php echo base_url("public/img/kanan.png") ?>" />
+                                            <img class="chevron chevron-right" src="<?php echo base_url("assets/img/kanan.png") ?>" />
                                            </a>
                                     </div>
                                     <br />
@@ -255,10 +255,10 @@
                                 <div class="col-sm-12" >
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <img src="<?php echo base_url("public/img/banner_front_page/banner%20-%20small1.png") ?>" style="width:100%">
+                                            <img src="<?php echo base_url("assets/img/banner_front_page/banner%20-%20small1.png") ?>" style="width:100%">
                                         </div>
                                         <div class="col-sm-6">
-                                            <img src="<?php echo base_url("public/img/banner_front_page/banner%20-%20small2.png") ?>" style="width:100%">
+                                            <img src="<?php echo base_url("assets/img/banner_front_page/banner%20-%20small2.png") ?>" style="width:100%">
                                         </div>
                                     </div>
                                 </div>
@@ -287,14 +287,14 @@
                     <!--Popular Search Product-->
                     <div class="row">
                         <div class="col-sm-9 col-sm-offset-3">
-                            <img src="<?php echo base_url("public/img/popular-searches.png") ?>" style="padding-left:0px; margin-left: -18px;">
+                            <img src="<?php echo base_url("assets/img/popular-searches.png") ?>" style="padding-left:0px; margin-left: -18px;">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -306,10 +306,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -321,10 +321,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -336,10 +336,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -351,10 +351,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -366,10 +366,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....
@@ -381,10 +381,10 @@
                                     </div>
                                 </div><div class="col-sm-3">
                                     <div class="thumbnail">
-                                        <img src="<?php echo base_url("public/img/products/s.jpg") ?>" alt="...">
+                                        <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
                                         <div class="caption">
                                             <a href="#">
-                                                <img src="<?php echo base_url("public/img/video-available.png") ?>" >
+                                                <img src="<?php echo base_url("assets/img/video-available.png") ?>" >
                                             </a>
                                             <p class="caption-product">
                                                 Yamaha ....

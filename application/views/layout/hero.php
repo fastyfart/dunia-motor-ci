@@ -2,7 +2,7 @@
         <div class="banner">
             <div class="row row-centered" style="margin-bottom:-5px; padding-bottom:0px">
                 <div class="col-sm-3 col-sm-offset-1 hidden-xs" style="margin-bottom:30px; text-align:left">
-                    <img src="<?php echo base_url("public/img/logo%20dunia%20motor.png") ?>"style="margin-bottom:-25px; margin-left:-40px" >
+                    <img src="<?php echo base_url("assets/img/logo%20dunia%20motor.png") ?>"style="margin-bottom:-25px; margin-left:-40px" >
                     <br />
                     <span style="color:white">
                         CONTACT US : 0878.8444.3234 

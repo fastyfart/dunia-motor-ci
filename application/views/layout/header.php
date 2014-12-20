@@ -12,9 +12,9 @@
     <title>Dunia Motor</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php echo base_url("public/css/bootstrap.min.css"); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" />
     <!--  Custom CSS  -->
-    <link rel="stylesheet" href="<?php echo base_url("public/css/style.css"); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/style.css"); ?>" />
 
 </head>
 
