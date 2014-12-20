@@ -19,6 +19,6 @@ class Product extends Master
 	}
 
 	public function addToCart(){
-		
+
 	}
 }

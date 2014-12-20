@@ -489,3 +489,14 @@ color: #a3a3a3;
     padding:15px;
 }
 
+.widget-box{
+    position: absolute;
+}
+
+.widget-box #body{
+    background-color: #D1D1D1;
+    width: 80px;
+    height: 100px;
+    padding: 10px 15px 10px 15px;
+
+}
