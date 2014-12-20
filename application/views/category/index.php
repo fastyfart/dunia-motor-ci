@@ -24,79 +24,11 @@
                         <!--Left Content Menu-->
                         <h4>Shop by Category</h4>
                         <ul class="list-unstyled">
-                            <li>
-                                <a href="pages/cat/akrapovic.html">Akrapovic</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/alpinestars">Alpinestars</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/bmc-air-filter">BMC Air Filter</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Brocks Performance</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">CNC Racing</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Ducabike</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Ducati</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Ducati Genuine Parts</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Ducati Performance</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Evotech Performance</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Honda</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Kawasaki</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">M4 Exhaust</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">MV Agusta</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Ohlins</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">R&G Racing</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Rizoma</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Sato Racing</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Sector Watch</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Sena Bluetooth</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Suzuki</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Universal Products</a>
-                            </li
-                                >
-                            <li>
-                                <a href="pages/cat/brocks-performance">Werkes USA</a>
-                            </li>
-                            <li>
-                                <a href="pages/cat/brocks-performance">Yamaha</a>
-                            </li>
+                            <?php foreach ($categories as $val) { ?>
+                                <li>
+                                    <a href="#"><?php echo $val->ct_name ?></a>
+                                </li>
+                            <?php } ?>
                         </ul>
                         <!--/.Left Content Menu-->
                     </div>

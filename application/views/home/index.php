@@ -25,79 +25,11 @@
                         <!--Left Content Menu-->
                         <h4>Shop by Category</h4>
                         <ul class="list-unstyled">
-                            <li>
-                                <a href="category">Akrapovic</a>
-                            </li>
-                            <li>
-                                <a href="alpinestars">Alpinestars</a>
-                            </li>
-                            <li>
-                                <a href="bmc-air-filter">BMC Air Filter</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Brocks Performance</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">CNC Racing</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Ducabike</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Ducati</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Ducati Genuine Parts</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Ducati Performance</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Evotech Performance</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Honda</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Kawasaki</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">M4 Exhaust</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">MV Agusta</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Ohlins</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">R&G Racing</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Rizoma</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Sato Racing</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Sector Watch</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Sena Bluetooth</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Suzuki</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Universal Products</a>
-                            </li
-                                >
-                            <li>
-                                <a href="brocks-performance">Werkes USA</a>
-                            </li>
-                            <li>
-                                <a href="brocks-performance">Yamaha</a>
-                            </li>
+                            <?php foreach ($categories as $val) { ?>
+                                <li>
+                                    <a href="#"><?php echo $val->ct_name ?></a>
+                                </li>
+                            <?php } ?>
                         </ul>
                         <!--/.Left Content Menu-->
                     </div>

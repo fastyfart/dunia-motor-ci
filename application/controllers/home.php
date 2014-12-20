@@ -19,7 +19,7 @@ class Home extends Master
 		$data['brands'] = $this->brand_model->get_all();
 
 		$this->load->model('category_model');
-		$data['categories '] = $this->category_model->get_all();
+		$data['categories'] = $this->category_model->get_all();
 
 		$this->load->view($this->layout, $data);
 	}

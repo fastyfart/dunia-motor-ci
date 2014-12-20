@@ -38,20 +38,11 @@
                         </div>
                         <div id="navbar2" class="navbar-collapse collapse ">
                             <ul class="nav navbar-nav nav-justified">
-                                <li><a href="#">BRAND </a>
-                                </li>
-                                <li><a href="#">DUCATI </a>
-                                </li>
-                                <li><a href="#">HONDA</a>
-                                </li>
-                                <li><a href="#">KAWASAKI</a>
-                                </li>
-                                <li><a href="#">MV AGUSTA</a>
-                                </li>
-                                <li><a href="#">SUZUKI</a>
-                                </li>
-                                <li><a href="#">YAMAHA</a>
-                                </li>
+                                <?php foreach($brands as $i => $val) { ?>
+                                    <li>
+                                        <a href="#"><?php echo $val->br_name ?> </a>
+                                    </li>
+                                <?php } ?>
                             </ul>
                         </div>
                         <!--/.nav-collapse -->
