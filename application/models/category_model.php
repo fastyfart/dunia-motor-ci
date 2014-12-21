@@ -14,6 +14,12 @@ class Category_model extends MY_Model{
                                 'model' => 'brand_model'
                             ));
 
+    public $has_many = array(
+                            'product' => array(
+                                'primary_key' => 'pr_category',
+                                'model' => 'product_model'
+                            )
+                        );
 
     public function __construct(){
         parent::__construct();

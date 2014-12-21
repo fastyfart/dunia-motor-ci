@@ -491,12 +491,25 @@ color: #a3a3a3;
 
 .widget-box{
     position: absolute;
+    overflow-y: visible;
 }
 
 .widget-box #body{
     background-color: #D1D1D1;
     width: 80px;
-    height: 100px;
+    min-height: 100px;
     padding: 10px 15px 10px 15px;
 
+
+}
+
+#btn-add-to-cart{
+    width: 128px;
+    height: 32px;
+    background: #D71921;
+    color: #FFFFFF;
+    margin: auto;
+    font-size: 12px;
+    border: 0px;
+    margin-top: 20px;
 }

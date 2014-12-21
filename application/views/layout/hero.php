@@ -2,8 +2,9 @@
     <div class="banner">
         <div class="row row-centered" style="margin-bottom:-5px; padding-bottom:0px">
             <div class="col-sm-3 col-sm-offset-1 hidden-xs" style="margin-bottom:30px; text-align:left">
+                <a href="<?php echo site_url() ?>">
                 <img src="<?php echo base_url("assets/img/logo%20dunia%20motor.png") ?>"
-                     style="margin-bottom:-25px; margin-left:-40px">
+                     style="margin-bottom:-25px; margin-left:-40px"></a>
                 <br/>
                     <span style="color:white">
                         CONTACT US : 0878.8444.3234 
@@ -40,7 +41,9 @@
                             <ul class="nav navbar-nav nav-justified">
                                 <?php foreach($brands as $i => $val) { ?>
                                     <li>
-                                        <a href="#"><?php echo $val->br_name ?> </a>
+                                        <a href="<?php echo site_url('category/?brand='.$val->br_id) ?>">
+                                            <?php echo $val->br_name ?>
+                                        </a>
                                     </li>
                                 <?php } ?>
                             </ul>
@@ -63,6 +66,10 @@
                     <h2>
                         <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                     </h2>
+                    <?php foreach($this->cart->contents() as $cart) {?>
+                        <?php echo $cart['qty'] ?> <br />
+                        <?php echo $cart['price'] ?> <br />
+                    <?php } ?>
                 </div>
             </div>
         </div>

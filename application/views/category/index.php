@@ -26,7 +26,7 @@
                         <ul class="list-unstyled">
                             <?php foreach ($categories as $val) { ?>
                                 <li>
-                                    <a href="#"><?php echo $val->ct_name ?></a>
+                                    <a href="<?php echo current_url().'/?brand='.$_GET['brand'] ?>&&cat=<?php echo $val->ct_id ?>"><?php echo $val->ct_name ?></a>
                                 </li>
                             <?php } ?>
                         </ul>
@@ -42,10 +42,6 @@
                                     <li><a href="#">akrapovic</a>
                                     </li>
                                 </ol>
-                                <h1>
-                                    Akrapovic GP Megaphone for Yamaha R6 2006-2014
-                                </h1>
-
                             </div>
 
                             <div class="col-sm-12 ">
@@ -63,104 +59,25 @@
 
                                 <!--List Product-->
                                 <div class="row detail-product ">
-
+                                    <?php foreach($products as $i => $val) { ?>
                                     <div class="col-sm-3">
                                         <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
+                                            <img src="<?php echo base_url("assets/img/products/".$val->pr_img) ?>" alt="...">
 
                                             <div class="caption">
                                                 <a href="#">
                                                     <img src="<?php echo base_url("assets/img/video-available.png") ?>">
                                                 </a>
-
                                                 <p>
-                                                    Yamaha ....
+                                                    <a href="<?php echo site_url('product/?pr='.$val->pr_id) ?>"> <?php echo $val->pr_name ?></a>
                                                 </p>
-
                                                 <p>
-                                                    <b>IDR 3.7000</b>
+                                                    <b>Rp. <?php echo $val->pr_price ?></b>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
-
-                                            <div class="caption">
-                                                <a href="#">
-                                                    <img src="<?php echo base_url("assets/img/video-available.png") ?>">
-                                                </a>
-
-                                                <p>
-                                                    Yamaha ....
-                                                </p>
-
-                                                <p>
-                                                    <b>IDR 3.7000</b>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
-
-                                            <div class="caption">
-                                                <a href="#">
-                                                    <img src="<?php echo base_url("assets/img/video-available.png") ?>">
-                                                </a>
-
-                                                <p>
-                                                    Yamaha ....
-                                                </p>
-
-                                                <p>
-                                                    <b>IDR 3.7000</b>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
-
-                                            <div class="caption">
-                                                <a href="#">
-                                                    <img src="<?php echo base_url("assets/img/video-available.png") ?>">
-                                                </a>
-
-                                                <p>
-                                                    Yamaha ....
-                                                </p>
-
-                                                <p>
-                                                    <b>IDR 3.7000</b>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/products/s.jpg") ?>" alt="...">
-
-                                            <div class="caption">
-                                                <a href="#">
-                                                    <img src="<?php echo base_url("assets/img/video-available.png") ?>">
-                                                </a>
-
-                                                <p>
-                                                    Yamaha ....
-                                                </p>
-
-                                                <p>
-                                                    <b>IDR 3.7000</b>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
+                                    <?php } ?>
                                     <!--/.List Product-->
                                 </div>
                             </div>
