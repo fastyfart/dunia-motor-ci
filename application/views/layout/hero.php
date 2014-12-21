@@ -58,18 +58,19 @@
     </div>
 </div>
 
-<div class="widget-box">
+<div class="widget-box two">
     <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
             <div data-spy="affix" data-offset-top="50" data-offset-bottom="200">
                 <div id="body">
-                    <h2>
-                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                    </h2>
-                    <?php foreach($this->cart->contents() as $cart) {?>
-                        <?php echo $cart['qty'] ?> <br />
-                        <?php echo $cart['price'] ?> <br />
-                    <?php } ?>
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    Rp. <?php echo $this->cart->total(); ?> <br />
+                    <hr/>
+                    <button class="btn btn-block pull-right btn-primary">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        Process
+                    </button>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
