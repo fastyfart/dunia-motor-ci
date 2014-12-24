@@ -45,14 +45,13 @@
                         <!--<small><b>Ducabike</b></small>-->
                         <h3>
                             <?php echo $product->pr_name ?>
-
                         </h3>
 
-                        <div id="container2">
-                            <div id="container1">
+                        <div id="container2" class="curl">
+                            <div id="container1" >
                                 <form method="post" action="" >
-                                    <div id="col1">
-                                        <div class="content-col">
+                                    <div id="col1" >
+                                        <div class="content-col ">
                                             Product Code : <?php echo $product->pr_id ?> <br/>
                                             <input type="hidden" name="cart_name" value="<?php echo $product->pr_name ?>">
                                             <input type="hidden" name="cart_code" value="<?php echo $product->pr_id ?>">
@@ -87,6 +86,8 @@
                                 </form>
                             </div>
                         </div>
+
+
                     </div>
                 </div><br/><br/>
 

@@ -26,7 +26,14 @@
                 </li>
                 <li><a href="../navbar-fixed-top/">CONTACT</a>
                 </li>
-                <li><a href="../navbar-fixed-top/">LOGIN/REGISTER</a>
+                <li>
+                    <?php
+                        if($this->ion_auth->logged_in()){ ?>
+                            <a href="<?php echo site_url('user/logout') ?>">LOGOUT</a>
+                        <?php }else{ ?>
+                            <a href="<?php echo site_url('user/getIn') ?>">REGISTER / LOGIN </a>
+                        <?php }
+                    ?>
                 </li>
             </ul>
         </div>

@@ -63,14 +63,15 @@
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
             <div data-spy="affix" data-offset-top="50" data-offset-bottom="200">
                 <div id="body">
+                    <a href="<?php echo site_url('product/cart')?>">
                     <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                    Rp. <?php echo $this->cart->total(); ?> <br />
-                    <hr/>
+                    Rp. <?php echo $this->cart->total(); ?> </a>
+                    <!--<hr/>
                     <button class="btn btn-block pull-right btn-primary">
                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                         Process
                     </button>
-                    <div class="clearfix"></div>
+                    <div class="clearfix"></div>-->
                 </div>
             </div>
         </div>
