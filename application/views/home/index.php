@@ -27,7 +27,7 @@
                         <ul class="list-unstyled">
                             <?php foreach ($categories as $val) { ?>
                                 <li>
-                                    <a href="#"><?php echo $val->ct_name ?></a>
+                                    <a href="<?php echo current_url().'category/?brand='.@$_GET['brand'] ?>&&cat=<?php echo $val->ct_id ?>"><?php echo $val->ct_name ?></a>
                                 </li>
                             <?php } ?>
                         </ul>

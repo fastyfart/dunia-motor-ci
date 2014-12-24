@@ -29,13 +29,23 @@ class Product_model extends MY_Model
 
     public function product_by_cat($idBrand, $idCat){
 
-        $result = $this->db->select('*')
-                    ->from('dm_product')
-                    ->join('dm_brand', 'dm_brand.br_id = dm_product.pr_brand')
-                    ->join("dm_category", "dm_category.ct_id = dm_product.pr_category")
-                    ->where('dm_product.pr_category', $idCat)
-                    ->where('dm_product.pr_brand', $idBrand)
-                    ->get();
+        if($idBrand == ''){
+            $result = $this->db->select('*')
+                ->from('dm_product')
+                ->join("dm_category", "dm_category.ct_id = dm_product.pr_category")
+                ->where('dm_product.pr_category', $idCat)
+                ->get();
+        }else{
+            $result = $this->db->select('*')
+                ->from('dm_product')
+                ->join('dm_brand', 'dm_brand.br_id = dm_product.pr_brand')
+                ->join("dm_category", "dm_category.ct_id = dm_product.pr_category")
+                ->where('dm_product.pr_category', $idCat)
+                ->where('dm_product.pr_brand', $idBrand)
+                ->get();
+        }
+
+
 
         return $result->result();
     }
