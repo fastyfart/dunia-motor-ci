@@ -46,23 +46,25 @@
                         <h3>
                             <?php echo $product->pr_name ?>
                         </h3>
-
+                    <div class="layer">
+                        <div class="layer-body" style="top:0px">
                         <div id="container2" class="curl">
-                            <div id="container1" >
-                                <form method="post" action="" >
-                                    <div id="col1" >
+                            <div id="container1">
+                                <form method="post" action="">
+                                    <div id="col1">
                                         <div class="content-col ">
                                             Product Code : <?php echo $product->pr_id ?> <br/>
-                                            <input type="hidden" name="cart_name" value="<?php echo $product->pr_name ?>">
+                                            <input type="hidden" name="cart_name"
+                                                   value="<?php echo $product->pr_name ?>">
                                             <input type="hidden" name="cart_code" value="<?php echo $product->pr_id ?>">
                                             Select Quentity :
-                                                <select name="cart_qty">
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                </select>
+                                            <select name="cart_qty">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
                                             <br/>
                                             Select Color :
                                             <select name="cart_color">
@@ -74,48 +76,67 @@
                                         </div>
                                         <div class="desc-product-footer">
                                             <div class="content-col">
-                                                PRICE IDR <?php echo $product->pr_price ?>
-                                                <input type="hidden" name="cart_price" value="<?php echo $product->pr_price ?>">
+                                                PRICE <span class="pull-right"> IDR <?php echo $product->pr_price ?></span>
+                                                <input type="hidden" name="cart_price"
+                                                       value="<?php echo $product->pr_price ?>">
                                             </div>
                                         </div>
                                     </div>
                                     <div id="col2">
-                                        <!--<img src="<?php /*echo base_url("assets/img/add-to-my-cart.png") */?>" style="margin: auto">-->
-                                        <button id="btn-add-to-cart" name="submit_cart" type="submit">ADD TO MY CART</button>
+                                        <!--<img src="<?php /*echo base_url("assets/img/add-to-my-cart.png") */ ?>" style="margin: auto">-->
+                                        <button id="btn-add-to-cart" name="submit_cart" type="submit">ADD TO MY CART
+                                        </button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-
-
                     </div>
-                </div><br/><br/>
+                    </div>
+                    </div>
+                </div>
+                <br/><br/>
 
                 <div class="row">
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="video-review">
-                                <div class="row">
-                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                                        <div class="thumbnail">
-                                            <img src="<?php echo base_url("assets/img/vivid.png") ?>" alt=""/>
-                                        </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="layer" style="margin-bottom: -90px;">
+                                    <div class="layer-shadow"></div>
+                                    <div class="layer-title-reviews">
+                                        Video Reviews
                                     </div>
-                                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <div class="layer-body">
                                         <div class="row">
                                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                                                 <div class="thumbnail">
                                                     <img src="<?php echo base_url("assets/img/vivid.png") ?>" alt=""/>
                                                 </div>
-                                            </div>
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="thumbnail">
-                                                    <img src="<?php echo base_url("assets/img/vivid.png") ?>" alt=""/>
+                                                <div class="row row-centered">
+                                                	<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-centered">
+                                                        <button id="product-subs-youtube">Subscribe to DUNIAMOTOR.COM</button>
+                                                	</div>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="thumbnail">
-                                                    <img src="<?php echo base_url("assets/img/vivid.png") ?>" alt=""/>
+                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                                <div class="row">
+                                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                                        <div class="thumbnail">
+                                                            <img src="<?php echo base_url("assets/img/vivid.png") ?>"
+                                                                 alt=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                                        <div class="thumbnail">
+                                                            <img src="<?php echo base_url("assets/img/vivid.png") ?>"
+                                                                 alt=""/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                                        <div class="thumbnail">
+                                                            <img src="<?php echo base_url("assets/img/vivid.png") ?>"
+                                                                 alt=""/>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,33 +147,130 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <div class="row">
-                                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5" id="review-summary">
-
+                                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5" style="margin-bottom: -90px">
+                                        <div class="layer">
+                                            <div class="layer-shadow"></div>
+                                            <div class="layer-title-grey" style="color: #000">
+                                                <b>REVIEW SUMMARY</b>
+                                            </div>
+                                            <div class="layer-body">
+                                                Bung for the Buck
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div>
+                                                Style
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div>
+                                                Comfort
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div>
+                                                Protection & Durability
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div>
+                                                Fit
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div>
+                                                Features
+                                                <div class="rating">
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-fill"></div>
+                                                    <div class="rating-level-empty"></div>
+                                                </div><br />
+                                                <p>
+                                                    47 out of 47 (100%) custmers recommend this product
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" id="product-details">
-                                        <p>
-                                            text text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text texttext text
-                                            text text
-                                            text text text text text text text text text text text text
-                                        </p>
+                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" >
+                                        <div class="layer">
+                                            <div class="layer-shadow"></div>
+                                            <div class="layer-title-grey" style="color: #000">
+                                                <b>PRODUCT DETAILS</b>
+                                            </div>
+                                            <div class="layer-body">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                    Dolore error facilis in voluptate!
+                                                    Ab, accusantium aperiam assumenda doloremque dolorum enim illo impedit maiores necessitatibus,
+                                                    nulla quam, quas repellendus similique tenetur.
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                    Dolore error facilis in voluptate!
+                                                    Ab, accusantium aperiam assumenda doloremque dolorum enim illo impedit maiores necessitatibus,
+                                                    nulla quam, quas repellendus similique tenetur.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom: -80px">
+                                        <div class="layer">
+                                            <div class="layer-shadow-tab"></div>
+                                            <div class="layer-title-tab">
+                                                <!-- Nav tabs -->
+                                                <ul class="nav nav-tabs" role="tablist" style="margin-left: 20px">
+                                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                                                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="layer-body" style="min-height: 80px">
+                                                <div role="tabpanel">
+                                                    <!-- Tab panes -->
+                                                    <div class="tab-content">
+                                                        <div role="tabpanel" class="tab-pane active" id="home">
+                                                            <div class="row">
+                                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div role="tabpanel" class="tab-pane" id="profile">.p..</div>
+                                                        <div role="tabpanel" class="tab-pane" id="messages">.m..</div>
+                                                        <div role="tabpanel" class="tab-pane" id="settings">.s..</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

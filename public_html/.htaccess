@@ -4,7 +4,7 @@
 
     RewriteCond %{REQUEST_URI} ^system.*
     RewriteRule ^(.*)$ /index.php?/$1 [L]
-    
+
     RewriteCond %{REQUEST_URI} ^application.*
     RewriteRule ^(.*)$ /index.php?/$1 [L]
 
@@ -15,4 +15,4 @@
 
 <IfModule !mod_rewrite.c>
     ErrorDocument 404 /index.php
-</IfModule> 
+</IfModule>
